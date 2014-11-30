@@ -1,3 +1,5 @@
 .DS_Store
 cookie.txt
 
+# Vagrant settings
+.vagrant
