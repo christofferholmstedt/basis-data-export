@@ -9,4 +9,4 @@
 sudo apt-get -y install vim git
 
 ### Build tools
-sudo apt-get -y install build-essential php5-cli
+sudo apt-get -y install build-essential php5-cli php5-curl
