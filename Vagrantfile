@@ -44,8 +44,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.synced_folder "./", "/home/vagrant/host"
 
     # Provisioning
-    config.vm.provision :shell, :path => "./scripts/00-bootstrap.sh"
-    config.vm.provision :shell, :path => "./scripts/01-install-required-packages.sh"
+    config.vm.provision :shell, :path => "./provisioning_scripts/00-bootstrap.sh"
+    config.vm.provision :shell, :path => "./provisioning_scripts/01-install-required-packages.sh"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
